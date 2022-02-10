@@ -1,0 +1,172 @@
+* {
+    font-family: ProximaNova-Semibold, Helvetica, Arial, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand>span {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img.card-img-top:hover {
+    background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+}
+
+.list-group-item {
+    padding-left: 2rem;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: none;
+    color: #dc3545;
+}
+
+footer .form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+footer .form-control:focus {
+    background: #212529;
+}
+
+footer {
+    z-index: 2;
+    padding: 2rem;
+    margin-top: 2rem;
+    background: #212529;
+}
+
+footer div h5.h1 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.categories-title {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(220, 53, 69, .5);
+    background-color: white !important;
+}
+
+.categories-title-h5 {
+    font-size: 1.5rem;
+    color: #dc3545;
+    text-shadow: 2px 2px rgba(220, 53, 69, .1);
+}
+
+.categories-title-h6 {
+    font-size: 1.3rem;
+    color: #dc3545;
+}
+
+.categories-title-h2 {
+    margin-bottom: 1rem;
+}
+
+#list-tab .active {
+    background-color: rgba(220, 53, 69, .9) !important;
+}
+
+.zoom {
+    transition: transform 0.8s ease;
+    overflow: hidden;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.zoom-box {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    color: #212529;
+    transition: color .2s;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all .2s ease-in-out;
+}
+
+.link:hover {
+    color: #dc3545;
+    font-size: 1.3rem;
+    transform: scale(1.2);
+}
+
+.item {
+    margin-top: 1rem;
+}
+
+.filter-link {
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.filter-link:hover {
+    text-shadow: 2px 2px rgba(220, 53, 69, .2);
+}
+
+.container {
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+
+.pic-container {
+    white-space: nowrap;
+}
+
+.jmb {
+    margin-left: 30px;
+}
+
+@-webkit-keyframes slide_animation {
+    0% {left: 2400px;}
+    10% {left: 2400px;}
+    20% {left: 2100px;}
+    30% {left: 2100px;}
+    40% {left: 1800px;}
+    50% {left: 1800px;}
+    60% {left: 1500px;}
+    70% {left: 1500px;}
+    80% {left: 1200px;}
+    90% {left: 1200px;}
+    100%{left: 2400px;}
+}
+
+.slide-images{
+    width: 1000px;
+    height: 230px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+
+}
